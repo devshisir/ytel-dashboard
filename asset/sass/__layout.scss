@@ -1,0 +1,36 @@
+.wrapper {
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    .sidebar {
+        min-height: 100vh;
+        max-height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 260px;
+        overflow-y: scroll;
+        transition: all 0.3s;
+    }
+
+    .app_wrapper {
+        transition: all 0.3s;
+        width: calc(100vw - 260px);
+        margin-left: 260px;
+        padding: 20px 0px 0px 0px;
+        min-height: 100vh;
+        display: flex;
+
+        .inner_wrapper {
+            border-top: 1px solid #9b9b9b4d;
+            border-left: 1px solid #9b9b9b4d;
+            flex: 1;
+            border-radius: 24px 0px 0px 0px;
+            padding: 40px 32px;
+        }
+    }
+
+    .appContent {
+        margin-top: 25px;
+    }
+}

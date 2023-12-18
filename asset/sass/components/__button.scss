@@ -1,0 +1,21 @@
+.btn {
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 600;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.btn-primary {
+    background: var(--Blue-Gradient, linear-gradient(270deg, #5590F5 -1.77%, #44BFFF 100%));
+}

@@ -1,0 +1,18 @@
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+@import 'import/_global';
+
+// import all component
+@import './components/_button';
+@import './components/_form';
+@import './components/_sidebar';
+@import './components/_mobileHeader';
+@import './components/_pageHeader';
+@import './components/_card';
+
+// global layout
+@import './_layout';
+
+
+// responsive file import
+@import './_responsive';

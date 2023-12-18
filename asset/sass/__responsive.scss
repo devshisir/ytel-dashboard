@@ -1,0 +1,27 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px) {}
+
+@media screen and (max-width: 991px) {
+    .mobile_menu_header {
+        display: block;
+    }
+
+    .wrapper {
+        padding: 0px 20px;
+    }
+
+    .wrapper .sidebar {
+        left: -260px;
+    }
+
+    .wrapper .app_wrapper {
+        width: 100%;
+        margin-left: 0px;
+
+        .inner_wrapper {
+            border: 1px solid #9b9b9b4d;
+            border-radius: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {}
